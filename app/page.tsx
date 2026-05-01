@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           <h1 className="font-extrabold text-6xl md:text-8xl leading-[0.95] tracking-tight mb-6">
-            Hi, I&apos;m <span className="text-accent">Khushi</span> 👋
+            Hi, I&apos;m <span className="text-accent">Khushi</span> 
             <br />
             <span className="text-fg/90">AI Engineer.</span>
           </h1>
@@ -76,7 +76,7 @@ export default function Home() {
                 <span className="text-fg font-semibold">AI Engineer</span> who
                 loves building intelligent systems that actually run in
                 production — not the kind that stay in notebooks. CS grad from
-                Manipal Institute of Technology (CGPA 8.7, Top 10%), IAS Summer
+                Manipal Institute of Technology, IAS Summer
                 Research Fellow.
               </p>
               <p>
@@ -361,27 +361,11 @@ const skillGroups = [
 
 const projects = [
   {
-    title: "OCASA",
-    subtitle: "RAG system @ Oracle",
-    description:
-      "Production RAG combining vector retrieval with LLMs to auto-generate documentation. Cut internal doc effort by 40–50%.",
-    tags: ["LLM", "RAG", "Java", "Kubernetes"],
-    href: "https://github.com/khu3086",
-  },
-  {
     title: "Clairvoyance",
     subtitle: "AI-driven recommender",
     description:
       "End-to-end ML pipeline ingesting market data, training predictive models, exposing recommendations through REST APIs to a real-time React dashboard.",
     tags: ["PyTorch", "React", "Node.js"],
-    href: "https://github.com/khu3086",
-  },
-  {
-    title: "LLM Document Parser",
-    subtitle: "Konverz AI",
-    description:
-      "High-throughput LLM extraction pipeline processing 1,000+ documents/day. 30% accuracy lift, 50% reduction in manual screening.",
-    tags: ["LLM", "NLP", "Python"],
     href: "https://github.com/khu3086",
   },
   {
@@ -404,10 +388,10 @@ const experience = [
   },
   {
     year: "2025",
-    role: "Software Engineer — Cloud",
+    role: "Software Engineer",
     company: "Oracle",
     description:
-      "Built OCASA, a production RAG system that cut internal documentation effort by 40–50%. Shipped a Java/Kubernetes Control Plane microservice for OCI's enterprise resource provisioning platform.",
+      "Shipped a Java/Kubernetes Control Plane microservice for OCI's enterprise resource provisioning platform. Contributed to ML tooling for internal systems, improving model deployment efficiency.",
   },
   {
     year: "2024",
